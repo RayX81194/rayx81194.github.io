@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Manish Phartiyal</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script>
+      document.addEventListener('visibilitychange', function() {
+          if (document.hidden) {
+              document.title = 'Hello!';
+          } else {
+              document.title = 'Manish Phartiyal';
+          }
+      });
+  </script>
+  <script>
+    setTimeout(() => {
+      var favicon_video_image_counter = 0;
+      var favicon_video_icon_tag = document.querySelector("link[rel='icon']");
+      var favicon_video_images = [
+  "https://favicongenerator.s3.amazonaws.com/617519ea43df6.png","https://favicongenerator.s3.amazonaws.com/4ccf4e084c779.png"];
+      async function favicon_video_to_data_url(url, callback) {
+        var xhr = new XMLHttpRequest();
+        xhr.onload = function () {
+          var reader = new FileReader();
+          reader.onloadend = function () {
+            callback(reader.result);
+          };
+          reader.readAsDataURL(xhr.response);
+        };
+        xhr.open("GET", url);
+        xhr.responseType = "blob";
+        xhr.send();
+      }
+  
+      var favicon_video_loaded_images = [];
+  
+      favicon_video_images.map((url, idx) => {
+        favicon_video_to_data_url(url, function (dataUrl) {
+          favicon_video_loaded_images[idx] = dataUrl;
+        });
+      });
+  
+      setInterval(function () {
+        if(favicon_video_loaded_images[favicon_video_image_counter]) {
+          favicon_video_icon_tag.href = favicon_video_loaded_images[
+            favicon_video_image_counter
+          ].replace("application/octet-stream", "image/png");
+        }
+        if (
+          favicon_video_image_counter ==
+          favicon_video_loaded_images.length - 1
+        )
+          favicon_video_image_counter = 0;
+        else favicon_video_image_counter++;
+      }, 1000);
+    }, 2000);
+  </script>
+
+   <script src="https://kit.fontawesome.com/1c2c2462bf.js" crossorigin="anonymous"></script>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
