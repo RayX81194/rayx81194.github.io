@@ -9,6 +9,7 @@ import one from "../assets/one.png";
 import two from "../assets/two.png";
 import three from "../assets/three.png";
 import four from "../assets/four.png";
+import five from "../assets/five.png";
 
 const Main = () => (
   <main data-aos="fade-down" data-aos-duration="1500" className="p-4">
@@ -61,6 +62,13 @@ const Main = () => (
           className="rounded-3xl hover:scale-[1.02] transition w-full h-full"
           src={one}
           alt="Project One"
+        />
+      </a>
+      <a href="https://rayx81194.github.io/onizuka/" target="_blank">
+        <img
+          className="rounded-3xl hover:scale-[1.02] transition w-full h-full"
+          src={five}
+          alt="Project Five"
         />
       </a>
       <a href="https://rayx81194.github.io/cortex/" target="_blank">
