@@ -10,6 +10,7 @@ import two from "../assets/two.png";
 import three from "../assets/three.png";
 import four from "../assets/four.png";
 import five from "../assets/five.png";
+import six from "../assets/six.png";
 
 const Main = () => (
   <main data-aos="fade-down" data-aos-duration="1500" className="p-4">
@@ -75,14 +76,14 @@ const Main = () => (
         <img
           className="rounded-3xl hover:scale-[1.02] transition w-full h-full"
           src={four}
-          alt="Project Two"
+          alt="Project Four"
         />
       </a>
       <a href="https://rayx81194.github.io/paykaro/" target="_blank">
         <img
           className="rounded-3xl hover:scale-[1.02] transition w-full h-full"
           src={three}
-          alt="Project Two"
+          alt="Project Three"
         />
       </a>
       <a href="https://rayx81194.github.io/mosam/" target="_blank">
@@ -90,6 +91,13 @@ const Main = () => (
           className="rounded-3xl hover:scale-[1.02] transition w-full h-full"
           src={two}
           alt="Project Two"
+        />
+      </a>
+      <a href="https://rayx81194.github.io/tickmark/" target="_blank">
+        <img
+          className="rounded-3xl hover:scale-[1.02] transition w-full h-full"
+          src={six}
+          alt="Project Six"
         />
       </a>
     </div>
