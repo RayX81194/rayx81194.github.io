@@ -11,6 +11,7 @@ import three from "../assets/three.png";
 import four from "../assets/four.png";
 import five from "../assets/five.png";
 import six from "../assets/six.png";
+import seven from "../assets/seven.png";
 
 const Main = () => (
   <main data-aos="fade-down" data-aos-duration="1500" className="p-4">
@@ -40,16 +41,16 @@ const Main = () => (
           </a>
           <div className="flex mb-5 flex-wrap w-[300px] items-center justify-between">
             <a href="https://www.instagram.com/msphartiyal/" target="_blank">
-              <img src={insta} className="w-[50px] h-[50px] ss:w-[50px]" alt="Instagram" />
+              <img src={insta} className="w-[50px] h-[50px] transition-all hover:invert ss:w-[50px]" alt="Instagram" />
             </a>
             <a href="https://github.com/RayX81194" target="_blank">
-              <img src={git} className="w-[50px] h-[50px] ss:w-[50px]" alt="GitHub" />
+              <img src={git} className="w-[50px] h-[50px] transition-all hover:invert ss:w-[50px]" alt="GitHub" />
             </a>
             <a href="https://www.linkedin.com/in/manishphartiyal/" target="_blank">
-              <img src={link} className="w-[50px] h-[50px] ss:w-[50px]" alt="LinkedIn" />
+              <img src={link} className="w-[50px] h-[50px] transition-all hover:invert ss:w-[50px]" alt="LinkedIn" />
             </a>
             <a href="https://www.youtube.com/@RayX81194" target="_blank">
-              <img src={yt} className="w-[50px] h-[50px] ss:w-[50px]" alt="YouTube" />
+              <img src={yt} className="w-[50px] h-[50px] transition-all hover:invert ss:w-[50px]" alt="YouTube" />
             </a>
           </div>
         </div>
@@ -77,6 +78,13 @@ const Main = () => (
           className="rounded-3xl hover:scale-[1.02] transition w-full h-full"
           src={four}
           alt="Project Four"
+        />
+      </a>
+      <a href="https://rayx81194.github.io/windows-11/" target="_blank">
+        <img
+          className="rounded-3xl hover:scale-[1.02] transition w-full h-full"
+          src={seven}
+          alt="Project Seven"
         />
       </a>
       <a href="https://rayx81194.github.io/paykaro/" target="_blank">
@@ -119,16 +127,16 @@ const Main = () => (
           </a>
           <div className="flex mb-5 flex-wrap w-[300px] items-center justify-between">
             <a href="https://www.instagram.com/msphartiyal/" target="_blank">
-              <img src={insta} className="w-[50px] h-[50px] ss:w-[50px]" alt="Instagram" />
+              <img src={insta} className="w-[50px] h-[50px] transition-all hover:invert ss:w-[50px]" alt="Instagram" />
             </a>
             <a href="https://github.com/RayX81194" target="_blank">
-              <img src={git} className="w-[50px] h-[50px] ss:w-[50px]" alt="GitHub" />
+              <img src={git} className="w-[50px] h-[50px] transition-all hover:invert ss:w-[50px]" alt="GitHub" />
             </a>
             <a href="https://www.linkedin.com/in/manishphartiyal/" target="_blank">
-              <img src={link} className="w-[50px] h-[50px] ss:w-[50px]" alt="LinkedIn" />
+              <img src={link} className="w-[50px] h-[50px] transition-all hover:invert ss:w-[50px]" alt="LinkedIn" />
             </a>
             <a href="https://www.youtube.com/@RayX81194" target="_blank">
-              <img src={yt} className="w-[50px] h-[50px] ss:w-[50px]" alt="YouTube" />
+              <img src={yt} className="w-[50px] h-[50px] transition-all hover:invert ss:w-[50px]" alt="YouTube" />
             </a>
           </div>
         </div>
