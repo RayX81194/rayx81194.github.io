@@ -12,6 +12,7 @@ import four from "../assets/four.png";
 import five from "../assets/five.png";
 import six from "../assets/six.png";
 import seven from "../assets/seven.png";
+import eight from "../assets/eight.png";
 
 const Main = () => (
   <main data-aos="fade-down" data-aos-duration="1500" className="p-4">
@@ -71,6 +72,13 @@ const Main = () => (
           className="rounded-3xl hover:scale-[1.02] transition w-full h-full"
           src={five}
           alt="Project Five"
+        />
+      </a>
+      <a href="https://manish-p.vercel.app/" target="_blank">
+        <img
+          className="rounded-3xl hover:scale-[1.02] transition w-full h-full"
+          src={eight}
+          alt="Project Eight"
         />
       </a>
       <a href="https://rayx81194.github.io/cortex/" target="_blank">
