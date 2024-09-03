@@ -1,10 +1,10 @@
 import React from "react";
 import "../App.css";
 import profile from "../assets/profile.webp";
-import yt from "../assets/yt.png";
-import link from "../assets/link.png";
-import insta from "../assets/insta.png";
-import git from "../assets/git.png";
+import yt from "../assets/yt.webp";
+import link from "../assets/link.webp";
+import insta from "../assets/insta.webp";
+import git from "../assets/git.webp";
 import one from "../assets/one.webp";
 import two from "../assets/two.webp";
 import three from "../assets/three.webp";
