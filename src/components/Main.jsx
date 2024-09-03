@@ -75,7 +75,7 @@ const Main = () => (
           alt="Project Five"
         />
       </a>
-      <a href="https://manish-p.vercel.app/" target="_blank">
+      <a href="https://pokedex-ray.vercel.app/" target="_blank">
         <img
           className="rounded-3xl hover:scale-[1.02] transition w-full h-full"
           src={nine}
