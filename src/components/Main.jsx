@@ -1,18 +1,19 @@
 import React from "react";
 import "../App.css";
-import profile from "../assets/profile.jpg";
+import profile from "../assets/profile.webp";
 import yt from "../assets/yt.png";
 import link from "../assets/link.png";
 import insta from "../assets/insta.png";
 import git from "../assets/git.png";
-import one from "../assets/one.png";
-import two from "../assets/two.png";
-import three from "../assets/three.png";
-import four from "../assets/four.png";
-import five from "../assets/five.png";
-import six from "../assets/six.png";
-import seven from "../assets/seven.png";
-import eight from "../assets/eight.png";
+import one from "../assets/one.webp";
+import two from "../assets/two.webp";
+import three from "../assets/three.webp";
+import four from "../assets/four.webp";
+import five from "../assets/five.webp";
+import six from "../assets/six.webp";
+import seven from "../assets/seven.webp";
+import eight from "../assets/eight.webp";
+import nine from "../assets/nine.webp";
 
 const Main = () => (
   <main data-aos="fade-down" data-aos-duration="1500" className="p-4">
@@ -72,6 +73,13 @@ const Main = () => (
           className="rounded-3xl hover:scale-[1.02] transition w-full h-full"
           src={five}
           alt="Project Five"
+        />
+      </a>
+      <a href="https://manish-p.vercel.app/" target="_blank">
+        <img
+          className="rounded-3xl hover:scale-[1.02] transition w-full h-full"
+          src={nine}
+          alt="Project Nine"
         />
       </a>
       <a href="https://manish-p.vercel.app/" target="_blank">
