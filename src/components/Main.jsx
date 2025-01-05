@@ -14,6 +14,7 @@ import six from "../assets/six.webp";
 import seven from "../assets/seven.webp";
 import eight from "../assets/eight.webp";
 import nine from "../assets/nine.webp";
+import ten from "../assets/black.webp";
 
 const Main = () => (
   <main data-aos="fade-down" data-aos-duration="1500" className="p-4">
@@ -61,6 +62,13 @@ const Main = () => (
 
     {/* Projects */}
     <div id="projects" className="grid grid-cols-1 ss:grid-cols-2 mt-5 gap-4">
+      <a href="https://github.com/RayX81194/racistyt" target="_blank">
+        <img
+          className="rounded-3xl hover:scale-[1.02] transition w-full h-full"
+          src={ten}
+          alt="Project One"
+        />
+      </a>
       <a href="https://github.com/RayX81194/PawRangers" target="_blank">
         <img
           className="rounded-3xl hover:scale-[1.02] transition w-full h-full"
