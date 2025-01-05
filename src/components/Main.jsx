@@ -15,6 +15,7 @@ import seven from "../assets/seven.webp";
 import eight from "../assets/eight.webp";
 import nine from "../assets/nine.webp";
 import ten from "../assets/black.webp";
+import eleven from "../assets/todoki.webp";
 
 const Main = () => (
   <main data-aos="fade-down" data-aos-duration="1500" className="p-4">
@@ -88,6 +89,13 @@ const Main = () => (
           className="rounded-3xl hover:scale-[1.02] transition w-full h-full"
           src={nine}
           alt="Project Nine"
+        />
+      </a>
+      <a href="https://github.com/RayX81194/todoki" target="_blank">
+        <img
+          className="rounded-3xl hover:scale-[1.02] transition w-full h-full"
+          src={eleven}
+          alt="Project One"
         />
       </a>
       <a href="https://manish-p.vercel.app/" target="_blank">
