@@ -15,13 +15,13 @@ function App() {
   return (
  <div className='w-full bg-gray-50 overflow-hidden'>
   <div className="px-3 bg-gray-50 lg:px-20 flex justify-center items-center">
-    <div className='xl:max-w-[128px] w-full'>
+    <div className='w-full'>
       <NavBar />
     </div>
   </div>
 
   <div className="px-4 lg:px-20 flex justify-center items-start">
-    <div className='xl:max-w-[128px] w-full'>
+    <div className='w-full'>
       <Main />
     </div>
   </div>

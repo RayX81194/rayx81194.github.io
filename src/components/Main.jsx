@@ -23,7 +23,7 @@ const Main = () => (
       {/* Profile Image */}
       <div className="flex justify-center items-center xs:order-none">
         <img
-          className="rounded-3xl xs:w-[500px] xs:h-[300px] w-[500px] h-[230px] ss:w-[800px] ss:h-[500px] xl:w-full xl:h-full object-cover"
+          className="rounded-3xl xs:w-[500px] xs:h-[300px] ss:w-[800px] ss:h-[500px] w-full h-full object-cover"
           src={profile}
           alt="Profile"
         />
@@ -40,7 +40,7 @@ const Main = () => (
         <div className="flex flex-wrap">
           <a href="mailto:mani.phartiyal@gmail.com">
             <button className="w-[270px] h-[50px] font-bold rounded-[30px] text-[14px] text-gray-200 bg-gray-950 hover:bg-gray-800 transition duration-200 mr-5 mb-4">
-              Contact Me
+              Contact Me -{">"}
             </button>
           </a>
           <div className="flex mb-5 flex-wrap w-[300px] items-center justify-between">
@@ -62,7 +62,7 @@ const Main = () => (
     </div>
 
     {/* Projects */}
-    <div id="projects" className="grid grid-cols-1 ss:grid-cols-2 mt-5 gap-4">
+    <div id="projects" className="grid xs:grid-cols-1 ss:grid-cols-2 lg:grid-cols-3 grid-cols-3 mt-5 gap-4">
       <a href="https://github.com/RayX81194/racistyt" target="_blank">
         <img
           className="rounded-3xl hover:scale-[1.02] transition w-full h-full"
@@ -148,29 +148,12 @@ const Main = () => (
       <p className="mb-3 text-gray-700 font-semibold">
         Email me or just say hello at this email.
       </p>
-      <p className="mb-10 ss:mb-20 text-gray-700 font-semibold">
-        <a href="mailto:mani.phartiyal@gmail.com">mani.phartiyal@gmail.com</a>
-      </p>
       <div className="flex flex-wrap">
           <a href="mailto:mani.phartiyal@gmail.com">
             <button className="w-[270px] h-[50px] font-bold rounded-[30px] text-[14px] text-gray-200 bg-gray-950 hover:bg-gray-800 transition duration-200 mr-5 mb-4">
-              Contact Me
+              mani.phartiyal@gmail.com -{">"}
             </button>
           </a>
-          <div className="flex mb-5 flex-wrap w-[300px] items-center justify-between">
-            <a href="https://www.instagram.com/msphartiyal/" target="_blank">
-              <img src={insta} className="w-[50px] h-[50px] transition-all hover:invert ss:w-[50px]" alt="Instagram" />
-            </a>
-            <a href="https://github.com/RayX81194" target="_blank">
-              <img src={git} className="w-[50px] h-[50px] transition-all hover:invert ss:w-[50px]" alt="GitHub" />
-            </a>
-            <a href="https://www.linkedin.com/in/manishphartiyal/" target="_blank">
-              <img src={link} className="w-[50px] h-[50px] transition-all hover:invert ss:w-[50px]" alt="LinkedIn" />
-            </a>
-            <a href="https://www.youtube.com/@RayX81194" target="_blank">
-              <img src={yt} className="w-[50px] h-[50px] transition-all hover:invert ss:w-[50px]" alt="YouTube" />
-            </a>
-          </div>
         </div>
     </section>
   </main>
